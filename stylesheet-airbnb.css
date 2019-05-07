@@ -1,0 +1,319 @@
+body{
+    margin:0;
+    padding:0;
+    line-height:2px;
+}
+p{
+  margin:0;
+  padding:0;
+}
+ul{
+  list-style: none;
+}
+.header-left{
+  width:20%;  
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.search_container{
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid #999;
+  margin-left: 50px !important;
+ 
+box-shadow: #767676;
+  height: 2em;
+  width: 300px;
+  overflow: hidden;
+  
+  margin-top:0;
+ 
+}
+.search_container input[type="text"]{
+  border: none;
+  height: 2.0em;
+  
+  
+}
+.search_container input[type="text"]:focus {
+  outline: 0;
+}
+.search_container input[type="submit"]{
+  cursor: pointer;
+  font-family:　FontAwesome;
+  font-size: 1.3em;
+  border: none;
+  background: none;
+  color: #3879D9;
+  position: absolute;
+  width: 2.5em;
+  height: 2.5em;
+  right: 0;
+  top: -10px;
+  outline : none;
+}
+
+
+
+ul{
+    float:right;
+    margin:0;
+    padding:0;
+    
+}
+li{
+  padding:0;
+  margin:0;
+}
+
+
+
+.nav > li{
+    float:right;
+    padding-right:10px;
+    color:black;
+    text-decoration:none;
+    padding-right:20px;
+    font-size:15px;
+   font-weight: bold;
+    
+}
+#nav{
+  width:60%;
+  margin:0 auto;
+}
+
+.nav > .text-dark li :hover{
+  border-bottom:2px solid #484848;
+}
+li:hover{
+    opacity: 0.8;
+}
+
+.alert{
+  margin-bottom: 0;
+}
+.alert >p{
+  background-color:#c2e4e7;
+  width:100%;
+  height:40px;
+  font-size:12px;
+  line-height:51px;
+ clear: right;
+ margin-bottom:0 !important;
+ margin-top:10px !important;
+  
+    
+}
+
+
+main{
+  background-image:url(../img/Summer.jpg);
+    width:100%;
+    height:500px;
+    background-size:cover;
+    margin-top: 0;
+}
+
+.contents{
+ width:960px;
+ margin:0 auto;
+
+   
+}
+
+
+
+.gift h1{
+  color:white;
+  font-weight:bold;
+  font-size:46px;
+  line-height:52px;
+  padding-bottom:10px;
+  letter-spacing: 4px;
+  padding-top:160px;
+}
+
+.gift p{
+  color:white;
+  padding-bottom:10px;
+  line-height:26px;
+  
+}
+
+.entry{
+  color:#484848;;
+  font-size:14px;
+  line-height:24px;
+  font-weight:bolder;
+}
+.gift a{
+  background-color:white;
+  font-weight:bold;
+  font-size:16px;
+  line-height:24px;
+}
+
+.contents-present >h1{
+  font-size:32px;
+  text-align:center;
+}
+
+.item-container{
+  display:inline;
+}
+.container{
+  width:30%;
+
+ 
+}
+.far, .fas{
+  font-size:50px;
+  color: cadetblue;
+  font-weight:normal;
+  margin:0 auto;
+}
+
+.item >h2{
+  font-size:18px;
+  font-weight:bold;
+}
+.gift-h1{
+  color:black;
+  text-decoration: none;
+font-size:32px;
+font-family:Circular, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "MS Gothic", "ＭＳ ゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.contents_message{
+  margin:0 auto;
+  background-color:#007a87;
+  height:400px;
+  padding-bottom:20px;
+  margin-bottom:30px;
+}
+
+.messeage{
+  width:960px;
+  margin:0 auto;
+  color:white;
+  text-align:center;
+  padding-bottom:40px;
+  
+}
+.present-icon{
+  width:100px;
+  height:100px;
+  display:inline-block;
+  text-align:center;
+  margin:35px 0 35px 0;
+}
+
+.messeage h1{
+  font-size:30px;
+  line-height:33px;
+  font-weight: 700;
+ 
+
+}
+
+.messeage p{
+  font-size:20px;
+  line-height:22px;
+ 
+}
+.btn a{
+ 
+  padding:10px 5px;
+  background-color:#ff5a5f;
+  width:250px;
+  color:white;
+  display:block;
+  font-size:15px;
+  }
+
+  .btn a:hover{
+    background-color: #ff7e82;
+    text-decoration:none;
+    color:white;  
+    
+  }
+
+ 
+
+  .message-help a{
+    color:white;
+    text-decoration:none;
+    display:block;
+    opacity:0.5;
+    font-size:14px;
+    padding-bottom:20px;
+ 
+  
+  }
+  .message-help a:hover{
+    color:white;
+    opacity:1.0;
+    text-decoration:none;
+  }
+  .outline{
+    width:960px;
+    margin:0 auto;
+    height:200px;
+  }
+  
+.outline h3{
+font-size:17px;
+}
+
+.outline> a {
+  text-decoration: none;
+}
+.ouline>li{
+  list-style: none ;
+}
+.outline-title ul a{
+  color:black;
+}
+.outline-title {
+  font-weight:600;
+  color:#484848;
+  padding-bottom: 10px;
+}
+footer{
+  padding:20px;
+  width:70%;
+  margin:0 auto;
+  font-size:14px;
+  font-weight: 500;
+  color: #767676;
+}
+
+footer a{
+  color:#767676;
+  text-decoration: underline;
+}
+footer a:hover{
+  color:#767676;
+  text-decoration: none;
+}
+
+.new-info{
+  background-color:green;
+  color:white;
+  padding:1px;
+  border-radius: 2px;
+  margin-left: 10px;
+}
+.fab{
+  font-size: 20px;
+  margin-right: 16px !important;
+}
+header{
+  height:100px !important;
+}
+.header-right{
+  padding:0;
+  margin:0
+}
