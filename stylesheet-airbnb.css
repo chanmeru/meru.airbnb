@@ -59,6 +59,7 @@ a{
 .gift h1{
   padding-top:50px !important;
   font-size:40px !important;
+  padding-left:20px !important;
 }
 
 .gift a{
@@ -68,7 +69,8 @@ a{
   margin-left:20px !important;
 }
  .gift p{
-   padding-left:20px !important;
+  padding-left: 20px;
+}
 main{
   width:100%;
   height:auto !important;
