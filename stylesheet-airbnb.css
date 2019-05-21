@@ -10,6 +10,10 @@ p{
 ul{
   list-style: none;
 }
+img{
+  max-width:100%;
+  height:auto;
+}
 .header-left{
   width:20%;  
 }
@@ -17,13 +21,95 @@ a{
   text-decoration: none;
   color:black;
 }
+/****** スマホ対応 *****/
+@media (max-width:767px){
+.header-right{
+  display:none !important;
+}
+.header-left{
+  width:100%;
+}
+.contents_message{
+  margin:0 auto;
+  text-align:center;
+  width:100%;
+  background-size: inherit !important;
+  padding:30px 20px !important;
+  height:600px !important ;
+  
+  
+}
+.message{
+  height:500px !important;
+}
+.py-2{
+  padding:10px;
+}
+
+.alert p{
+  width:100%;
+  height:90px !important;
+  font-size:14px !important;
+  
+
+}
+.gift{
+  padding-left:5px !important;
+}
+.gift h1{
+  padding-top:30px !important;
+  font-size:40px !important;
+}
+
+.gift a{
+  margin-bottom:110px !important;
+  padding:10px 5px !important;
+  width:20%;
+}
+main{
+  width:100%;
+  height:auto !important;
+}
+footer{
+  margin-bottom:5px !important;
+}
+
+
+.outline-list{
+  display:none;
+}
+.outline{
+  display: none;
+}
+.item h2{
+  padding-top:25px !important;
+}
+footer > i{
+ float: left;
+}
+}
+/* ********* */
+@media (max-width:490px) {
+.alert p{
+ width:100%;
+ height:180px !important;
+}
+}
+@media(max-width:580px){
+  .alert p{
+    width:100%;
+    height:150px;
+  }
+}
+
+
 .search_container{
   box-sizing: border-box;
   position: relative;
-  border: 1px solid #999;
+  border: 1px solid rgb(20, 19, 19);
   margin-left: 50px !important;
  
-box-shadow: #767676;
+  box-shadow: #767676;
   height: 2em;
   width: 300px;
   overflow: hidden;
@@ -42,7 +128,7 @@ box-shadow: #767676;
 }
 .search_container input[type="submit"]{
   cursor: pointer;
-  font-family:　FontAwesome;
+  font-family:FontAwesome;
   font-size: 1.3em;
   border: none;
   background: none;
@@ -85,8 +171,9 @@ li{
   margin:0 auto;
 }
 
-.nav > .text-dark li :hover{
+.nav > a :hover{
   border-bottom:2px solid #484848;
+  padding-bottom:10px;
 }
 li:hover{
     opacity: 0.8;
@@ -100,7 +187,7 @@ li:hover{
   width:100%;
   height:40px;
   font-size:12px;
-  line-height:51px;
+  line-height:40px;
  clear: right;
  margin-bottom:0 !important;
  margin-top:10px !important;
@@ -110,9 +197,9 @@ li:hover{
 
 
 main{
-  background-image:url(Summer.jpg);
+  background-image:url(../img/Summer.jpg);
     width:100%;
-    height:500px;
+    height:550px;
     background-size:cover;
     margin-top: 0;
 }
@@ -192,10 +279,11 @@ font-family:Circular, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", メ�
   height:400px;
   padding-bottom:20px;
   margin-bottom:30px;
+  width:100%;
 }
 
 .messeage{
-  width:960px;
+  width:100%;
   margin:0 auto;
   color:white;
   text-align:center;
@@ -248,7 +336,7 @@ font-family:Circular, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", メ�
     display:block;
     opacity:0.5;
     font-size:14px;
-    padding-bottom:20px;
+    padding-bottom:40px !important;
  
   
   }
@@ -283,7 +371,7 @@ font-size:17px;
 }
 footer{
   padding:20px;
-  width:70%;
+  width:50%;
   margin:0 auto;
   font-size:14px;
   font-weight: 500;
@@ -316,4 +404,16 @@ header{
 .header-right{
   padding:0;
   margin:0
+}
+.item p{
+  color:#767676;
+}
+.item h2{
+  color:#484848 !important;
+}
+footer{
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+}
+footer a{
+  text-decoration: none;
 }
