@@ -94,6 +94,11 @@ footer > i{
 }
 }
 /* ********* */
+@media (max-width:480px){
+  .alert p{
+    height:140px !important;
+  }
+}
 media (max-width:1024px){
   .gift h1,
   .gift p{
