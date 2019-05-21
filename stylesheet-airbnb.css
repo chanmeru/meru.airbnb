@@ -94,16 +94,17 @@ footer > i{
 }
 }
 /* ********* */
-@media (max-width:490px) {
-.alert p{
- width:100%;
- height:180px !important;
-}
-}
-@media(max-width:580px){
+media (max-width:1024px){
+  .gift h1,
+  .gift p{
+    padding-left:30px;
+  }
+  .gift a{
+    margin-left:30px;
+  }
   .alert p{
-    width:100%;
-    height:150px;
+    height:70px !important;
+    margin-bottom:0 !important;
   }
 }
 
